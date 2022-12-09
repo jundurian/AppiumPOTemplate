@@ -1,7 +1,10 @@
 package core;
 
 /*
-This class contains parametrized basic functions that will be user by all the Pages.
+This class contains parametrized basic functions that will be used by all the Pages inside the 'pages' package.
+The purpose of this class is to gather basic functions that will be used across all the tests apps.
+For example: a click is done in all the existent apps. So there is a parametrized function inside the BasePage to click.
+If any other action is more related to a specific app, it CAN be created inside the Page of that app.
  */
 
 import com.google.common.collect.ImmutableMap;
